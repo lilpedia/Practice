@@ -1,0 +1,12 @@
+name, surname = input("Name and Surname: ").split()
+phone_number = input("Your phone number: ").split()
+street, house_num, flat_num, city = input("Your street, house number, flat number and city: ").split()
+index = int(input("Your city index: "))
+country = input("Your country: ")
+
+print("Here is some information about You")
+print(name, surname)
+print(phone_number)
+print(street, house_num, flat_num, city)
+print(index)
+print(country)
